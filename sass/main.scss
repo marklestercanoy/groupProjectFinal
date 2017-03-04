@@ -1,0 +1,33 @@
+$bg-color: #ffffff;
+$hover-color: yellow;
+$text-color: #38804f;
+
+@import "banner";
+
+nav {
+  text-align: center;
+  h2 {
+    font-family: "Calibri Light";
+    font-size: 30px;
+    border: 3px solid seagreen;
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    background: $bg-color;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    color: $text-color;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+
+  a.hover {
+    background: $hover-color;
+  }
+}

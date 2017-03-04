@@ -1,0 +1,39 @@
+/* line 1, ../sass/_banner.scss */
+.banner-img {
+  margin: 0;
+  border: 0;
+  height: 100%;
+}
+
+/* line 7, ../sass/main.scss */
+nav {
+  text-align: center;
+}
+/* line 9, ../sass/main.scss */
+nav h2 {
+  font-family: "Calibri Light";
+  font-size: 30px;
+  border: 3px solid seagreen;
+  margin: 0;
+  padding: 0;
+}
+/* line 16, ../sass/main.scss */
+nav ul {
+  background: #ffffff;
+  list-style: none;
+}
+/* line 20, ../sass/main.scss */
+nav li {
+  display: inline-block;
+}
+/* line 23, ../sass/main.scss */
+nav a {
+  display: inline-block;
+  color: #38804f;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+/* line 30, ../sass/main.scss */
+nav a.hover {
+  background: yellow;
+}
