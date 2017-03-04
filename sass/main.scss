@@ -7,18 +7,20 @@ $text-color: #38804f;
 nav {
   text-align: center;
   h2 {
-    font-family: "Calibri Light";
-    font-size: 30px;
-    border: 3px solid seagreen;
-    margin: 0;
-    padding: 0;
+    font: 30px "sans-serif";
+    font-size: 35px;
   }
   ul {
+    display: inline;
     background: $bg-color;
+    border: 3px solid seagreen;
+    margin: 5px;
+    padding: 15px 10px;
     list-style: none;
   }
   li {
     display: inline-block;
+    word-spacing: 20px;
   }
   a {
     display: inline-block;

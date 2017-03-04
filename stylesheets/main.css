@@ -12,28 +12,30 @@ nav {
 /* line 9, ../sass/main.scss */
 nav h2 {
   font-family: "Calibri Light";
-  font-size: 30px;
-  border: 3px solid seagreen;
-  margin: 0;
-  padding: 0;
+  font-size: 35px;
 }
-/* line 16, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 nav ul {
+  display: inline;
   background: #ffffff;
+  border: 3px solid seagreen;
+  margin: 5px;
+  padding: 15px 10px;
   list-style: none;
 }
-/* line 20, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 nav li {
   display: inline-block;
+  word-spacing: 20px;
 }
-/* line 23, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 nav a {
   display: inline-block;
   color: #38804f;
   padding: 10px 16px;
   text-decoration: none;
 }
-/* line 30, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 nav a.hover {
   background: yellow;
 }
