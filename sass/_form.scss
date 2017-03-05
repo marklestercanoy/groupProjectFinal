@@ -1,0 +1,112 @@
+form {
+  font-family: Arial;
+  font-size: 20px;
+
+}
+  input{
+    font: 30px 'PT Sans', sans-serif;
+    font-size: 20px;
+  }
+  fieldset{
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: none;
+    legend{
+      margin: 0;
+      padding: 0;
+      font-size: 100%;
+      label{
+        position: absolute;
+        top: -20em;
+        left: -200em;
+      }
+      select{
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        display: inline;
+        border-radius: 4px;
+      }
+    }
+  }
+  fieldset.date select:active,
+  fieldset.date select:focus,
+  fieldset.date select:hover
+  {
+    border-color: darkgray;
+    background-color: gray;
+  }
+
+div {
+  width: 30%;
+  height: 50%;
+  border-radius: 6px;
+  vertical-align:baseline;
+}
+
+input {
+  margin-bottom: 2%;
+}
+
+div input.submit {
+  border-radius: 5px;
+  padding: 10px 15px;
+  float: right;
+  position: relative;
+  border-style: double;
+  right: 10px;
+}
+
+div img {
+  float:left;
+  margin: -210px 0px 0px -190px;
+}
+
+input.content  {
+  width: 60%;
+  background-color: rgba(58, 128, 65, 0.59);
+}
+
+div#form-style-2 {
+  max-width: 560px;
+  box-shadow: rgb(58, 128, 65) 0 0 20px 1px;
+  font: 20px "PT Sans", sans-serif;
+  margin: auto;
+  padding: 200px 85px;
+  border-radius: 5px;
+}
+div#form-style-2 label span#sp2 {
+  width: 300px;
+  text-align: right;
+  display:inline-block;
+  font: 15px "PT Sans", sans-serif;
+}
+
+div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
+  width: 40%;
+  height: 50px;
+  float: right;
+  color: $bg-color;
+  margin-right: 40px;
+  background: rgb(239, 43, 47);
+  border-radius: 5px;
+  border-color: transparent;
+}
+div#form-style-2 form label.text span input[type="checkbox"] {
+  width: 110px;
+  display: inline-block;
+  float:right;
+}
+
+div#form-style-2 input[type="submit"]:hover, div#form-style-2 input[type="button"]:hover{
+  color: $bg-color;
+  background: rgb(234, 225, 24);
+}
+div form input[type="text"] {
+  width: 59%;
+
+}
+div#form-style-2 form input[type="email"] {
+  width:59%;
+}

@@ -1,41 +1,386 @@
-/* line 1, ../sass/_banner.scss */
+/* line 1, ../sass/_images.scss */
 .banner-img {
-  margin: 0;
   border: 0;
+  margin: 0;
   height: 100%;
 }
 
-/* line 7, ../sass/main.scss */
-nav {
+/* line 6, ../sass/_images.scss */
+.card-img {
+  position: absolute;
+  z-index: 1;
+  top: 1400px;
+  left: 0;
+  right: 500px;
+  bottom: -55px;
+  margin: auto;
+}
+
+/* line 15, ../sass/_footer.scss */
+footer {
+  background-color: #006B41;
+  margin: 130px auto 0 auto;
   text-align: center;
 }
-/* line 9, ../sass/main.scss */
-nav h2 {
-  font-family: "Calibri Light";
-  font-size: 35px;
+
+/* line 20, ../sass/_footer.scss */
+.ul2 {
+  padding: 0;
 }
-/* line 13, ../sass/main.scss */
-nav ul {
-  display: inline;
-  background: #ffffff;
-  border: 3px solid seagreen;
-  margin: 5px;
-  padding: 15px 10px;
+
+/* line 25, ../sass/_footer.scss */
+nav#nav1 {
+  display: inline-block;
+  font: 28px 'PT Sans', sans-serif;
+  text-align: left;
+  color: #ffffff;
+  left: 0;
+  padding: 30px 5% 30px 5%;
+}
+/* line 27, ../sass/_footer.scss */
+nav#nav1 ul {
+  padding-top: 20px;
+}
+/* line 30, ../sass/_footer.scss */
+nav#nav1 ul li.Fcase {
+  text-align: left;
+  font-size: 23px;
   list-style: none;
+  color: #ffffff;
 }
-/* line 21, ../sass/main.scss */
-nav li {
-  display: inline-block;
-  word-spacing: 20px;
-}
-/* line 25, ../sass/main.scss */
-nav a {
-  display: inline-block;
-  color: #38804f;
-  padding: 10px 16px;
+/* line 33, ../sass/_footer.scss */
+nav#nav1 ul li.Fcase a.linker {
+  color: #ffffff;
   text-decoration: none;
 }
-/* line 32, ../sass/main.scss */
-nav a.hover {
-  background: yellow;
+/* line 36, ../sass/_footer.scss */
+nav#nav1 ul li.Fcase a.linker:visited {
+  color: #ffffff;
+}
+/* line 39, ../sass/_footer.scss */
+nav#nav1 ul li.Fcase a.linker:hover {
+  text-shadow: 4px 4px 20px blue;
+}
+/* line 42, ../sass/_footer.scss */
+nav#nav1 ul li.Fcase a.linker:active {
+  color: #ffffff;
+}
+/* line 51, ../sass/_footer.scss */
+nav#nav2 {
+  display: inline-block;
+  font: 28px 'PT Sans', sans-serif;
+  text-align: left;
+  color: #ffffff;
+  left: 0;
+  padding: 30px 5% 30px 5%;
+}
+/* line 53, ../sass/_footer.scss */
+nav#nav2 ul {
+  padding-top: 20px;
+}
+/* line 56, ../sass/_footer.scss */
+nav#nav2 ul li.Fcase {
+  text-align: left;
+  font-size: 23px;
+  list-style: none;
+  color: #ffffff;
+}
+/* line 59, ../sass/_footer.scss */
+nav#nav2 ul li.Fcase a.linker {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 62, ../sass/_footer.scss */
+nav#nav2 ul li.Fcase a.linker:visited {
+  color: #ffffff;
+}
+/* line 65, ../sass/_footer.scss */
+nav#nav2 ul li.Fcase a.linker:hover {
+  text-shadow: 4px 4px 20px blue;
+}
+/* line 68, ../sass/_footer.scss */
+nav#nav2 ul li.Fcase a.linker:active {
+  color: #ffffff;
+}
+/* line 78, ../sass/_footer.scss */
+nav#nav3 {
+  display: inline-block;
+  font: 28px 'PT Sans', sans-serif;
+  text-align: left;
+  color: #ffffff;
+  left: 0;
+  padding: 30px 5% 30px 5%;
+}
+/* line 80, ../sass/_footer.scss */
+nav#nav3 ul {
+  padding-top: 20px;
+}
+/* line 83, ../sass/_footer.scss */
+nav#nav3 ul li.Fcase {
+  text-align: left;
+  font-size: 23px;
+  list-style: none;
+  color: #ffffff;
+}
+/* line 86, ../sass/_footer.scss */
+nav#nav3 ul li.Fcase a.linker {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 89, ../sass/_footer.scss */
+nav#nav3 ul li.Fcase a.linker:visited {
+  color: #ffffff;
+}
+/* line 92, ../sass/_footer.scss */
+nav#nav3 ul li.Fcase a.linker:hover {
+  text-shadow: 4px 4px 20px blue;
+}
+/* line 95, ../sass/_footer.scss */
+nav#nav3 ul li.Fcase a.linker:active {
+  color: #ffffff;
+}
+/* line 104, ../sass/_footer.scss */
+nav#nav4 {
+  display: inline-block;
+  font: 28px 'PT Sans', sans-serif;
+  text-align: left;
+  color: #ffffff;
+  left: 0;
+  padding: 30px 5% 30px 5%;
+}
+/* line 106, ../sass/_footer.scss */
+nav#nav4 ul {
+  padding-top: 20px;
+}
+/* line 109, ../sass/_footer.scss */
+nav#nav4 ul li.Fcase {
+  text-align: left;
+  font-size: 23px;
+  list-style: none;
+  color: #ffffff;
+}
+/* line 112, ../sass/_footer.scss */
+nav#nav4 ul li.Fcase a.linker {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 115, ../sass/_footer.scss */
+nav#nav4 ul li.Fcase a.linker:visited {
+  color: #ffffff;
+}
+/* line 118, ../sass/_footer.scss */
+nav#nav4 ul li.Fcase a.linker:hover {
+  text-shadow: 4px 4px 20px blue;
+}
+/* line 121, ../sass/_footer.scss */
+nav#nav4 ul li.Fcase a.linker:active {
+  color: #ffffff;
+}
+
+/* line 1, ../sass/_nav.scss */
+nav#navFirst {
+  border: 2.5px solid #176c49;
+  margin: 10px auto;
+  width: 85%;
+  text-align: center;
+  padding: 0;
+}
+/* line 7, ../sass/_nav.scss */
+nav#navFirst ul.clear {
+  clear: both;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+/* line 12, ../sass/_nav.scss */
+nav#navFirst ul.clear li {
+  display: inline-block;
+}
+/* line 14, ../sass/_nav.scss */
+nav#navFirst ul.clear li:hover {
+  background: url("../img/hover-img.png") no-repeat center bottom;
+}
+/* line 17, ../sass/_nav.scss */
+nav#navFirst ul.clear li a {
+  text-decoration: none;
+  color: #176c49;
+  font: 30px 'PT Sans', sans-serif;
+  display: block;
+  padding: 20px 60px;
+}
+
+/* line 1, ../sass/_form.scss */
+form {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+/* line 6, ../sass/_form.scss */
+input {
+  font: 30px 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+
+/* line 10, ../sass/_form.scss */
+fieldset {
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: none;
+}
+/* line 15, ../sass/_form.scss */
+fieldset legend {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+/* line 19, ../sass/_form.scss */
+fieldset legend label {
+  position: absolute;
+  top: -20em;
+  left: -200em;
+}
+/* line 24, ../sass/_form.scss */
+fieldset legend select {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  display: inline;
+  border-radius: 4px;
+}
+
+/* line 33, ../sass/_form.scss */
+fieldset.date select:active,
+fieldset.date select:focus,
+fieldset.date select:hover {
+  border-color: darkgray;
+  background-color: gray;
+}
+
+/* line 41, ../sass/_form.scss */
+div {
+  width: 30%;
+  height: 50%;
+  border-radius: 6px;
+  vertical-align: baseline;
+}
+
+/* line 48, ../sass/_form.scss */
+input {
+  margin-bottom: 2%;
+}
+
+/* line 52, ../sass/_form.scss */
+div input.submit {
+  border-radius: 5px;
+  padding: 10px 15px;
+  float: right;
+  position: relative;
+  border-style: double;
+  right: 10px;
+}
+
+/* line 61, ../sass/_form.scss */
+div img {
+  float: left;
+  margin: -210px 0px 0px -190px;
+}
+
+/* line 66, ../sass/_form.scss */
+input.content {
+  width: 60%;
+  background-color: rgba(58, 128, 65, 0.59);
+}
+
+/* line 71, ../sass/_form.scss */
+div#form-style-2 {
+  max-width: 560px;
+  box-shadow: #3a8041 0 0 20px 1px;
+  font: 20px "PT Sans", sans-serif;
+  margin: auto;
+  padding: 200px 85px;
+  border-radius: 5px;
+}
+
+/* line 79, ../sass/_form.scss */
+div#form-style-2 label span#sp2 {
+  width: 300px;
+  text-align: right;
+  display: inline-block;
+  font: 15px "PT Sans", sans-serif;
+}
+
+/* line 86, ../sass/_form.scss */
+div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
+  width: 40%;
+  height: 50px;
+  float: right;
+  color: #ffffff;
+  margin-right: 40px;
+  background: #ef2b2f;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+/* line 96, ../sass/_form.scss */
+div#form-style-2 form label.text span input[type="checkbox"] {
+  width: 110px;
+  display: inline-block;
+  float: right;
+}
+
+/* line 102, ../sass/_form.scss */
+div#form-style-2 input[type="submit"]:hover, div#form-style-2 input[type="button"]:hover {
+  color: #ffffff;
+  background: #eae118;
+}
+
+/* line 106, ../sass/_form.scss */
+div form input[type="text"] {
+  width: 59%;
+}
+
+/* line 110, ../sass/_form.scss */
+div#form-style-2 form input[type="email"] {
+  width: 59%;
+}
+
+/* line 10, ../sass/main.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../sass/main.scss */
+h1 {
+  display: inline-block;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 30px;
+  width: 60%;
+  margin-left: 300px;
+  margin-bottom: 0;
+}
+
+/* line 24, ../sass/main.scss */
+p {
+  display: inline-block;
+  font-family: "PT Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 10px;
+  margin-left: 300px;
+  margin-bottom: 0;
+  width: 60%;
+}
+
+/* line 35, ../sass/main.scss */
+h2 {
+  text-align: center;
+  font-family: "PT Sans" , sans-serif;
+  color: red;
+  font-size: 35px;
+  line-height: 50px;
+  margin-left: -400px;
 }
