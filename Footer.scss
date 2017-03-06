@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+}
+footer {
+  background-color: #006B41;
+  margin: 130px auto 0 auto;
+  text-align: center;
+}
+
+@mixin navMain{
+  display: inline-block;
+  font: 30px sans-serif;
+  text-align: left;
+  color: white;
+  padding: 30px 5% 30px 5%;
+}
+@mixin navList{
+  text-align: left;
+  font-size: 25px;
+  list-style: none;
+  color: white;
+}
+
+.ul2{
+  padding: 0px 0px;
+}
+nav{
+
+  &#nav1 {
+    @include navMain;
+    ul {
+      padding-top: 20px;
+      li {
+        &.Fcase {
+          @include navList;
+          a {
+            &.linker {
+              color: white;
+              text-decoration: none;
+              &:visited {
+                color: white;
+              }
+              &:hover {
+                color: blue;
+                text-shadow: 4px 4px 20px blue;
+              }
+              &:active {
+                color: lightblue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &#nav2 {
+    @include navMain;
+    ul {
+      padding-top: 20px;
+      li {
+        &.Fcase {
+          @include navList;
+          a {
+            &.linker {
+              color: white;
+              text-decoration: none;
+              &:visited {
+                color: white;
+              }
+              &:hover {
+                color: blue;
+                text-shadow: 4px 4px 20px blue;
+              }
+              &:active {
+                color: lightblue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &#nav3 {
+    @include navMain;
+    ul {
+      padding-top: 20px;
+      li {
+        &.Fcase {
+          @include navList;
+          a {
+            &.linker {
+              color: white;
+              text-decoration: none;
+              &:visited {
+                color: white;
+              }
+              &:hover {
+                color: blue;
+                text-shadow: 4px 4px 20px blue;
+              }
+              &:active {
+                color: lightblue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &#nav4 {
+    @include navMain;
+    ul {
+      padding-top: 20px;
+      li {
+        &.Fcase {
+          @include navList;
+          a {
+            &.linker {
+              color: white;
+              text-decoration: none;
+              &:visited {
+                color: white;
+              }
+              &:hover {
+                color: blue;
+                text-shadow: 4px 4px 20px blue;
+              }
+              &:active {
+                color: lightblue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
