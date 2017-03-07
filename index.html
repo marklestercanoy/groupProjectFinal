@@ -9,17 +9,17 @@
 
 <img class="banner-img" src="img/NXTLVL_WEBDEB_711_Banner.png" height="216" width=100%/>
 
-         <nav id="navFirst">
-            <ul class="clear">
-                <li><a href="#Praesentium">Praesentium</a></li>
-                <li><a href="#Voluptatum">Voluptatum</a></li>
-                <li><a href="#Dignissimos">Dignissimos</a></li>
-                <li><a href="#Blanditiis">Blanditiis</a></li>
-            </ul>
-         </nav>
+<nav id="navFirst">
+    <ul class="clear">
+        <li><a href="additionPage.html">Praesentium</a></li>
+        <li><a href="additionPage.html">Voluptatum</a></li>
+        <li><a href="additionPage.html">Dignissimos</a></li>
+        <li><a href="additionPage.html">Blanditiis</a></li>
+    </ul>
+</nav>
 
 <h1>
-    Sed ut perspiciatis unde omnis iste natus error sit
+    Sed ut perspiciatis unde omnis iste natus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error sit
     voluptatem sit amet tempor
 </h1>
 
@@ -30,15 +30,14 @@
 <div id="form-style-2">
     <div id="formMessage"></div>
     <form>
-        Name: &nbsp<input type="text" name="name" value="" placeholder="Full Name"/>
+        <span class="name">Name:</span> &nbsp<input type="text" name="name" value="" placeholder="Full Name"/>
         <br>
-        Email: &nbsp<input type="email" name="email" value="" placeholder="Email Address"/>
+        <span class="email">Email:</span> &nbsp<input type="email" name="email" value="" placeholder="Email Address"/>
         <br>
-        <label>
-            <span> Date Of Birth: </span>
-        </label>
-        <label>
-            <select name="month">
+        <fieldset class="date">
+            Date Of Birth:
+            <label for="month">
+                <select id="month" name="month" >
                 <option>Month</option>
                 <option>January</option>
                 <option>February</option>
@@ -52,20 +51,20 @@
                 <option>October</option>
                 <option>November</option>
                 <option>December</option>
-            </select>
-        </label>
-        <label>
-            <select name="day">
+                </select>
+             </label>
+             <label for="day">
+                <select id="day" name="day" >
                 <option>Day</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-                <option>05</option>
-                <option>06</option>
-                <option>07</option>
-                <option>08</option>
-                <option>09</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
                 <option>10</option>
                 <option>11</option>
                 <option>12</option>
@@ -88,10 +87,11 @@
                 <option>29</option>
                 <option>30</option>
                 <option>31</option>
-            </select>
-        </label>
-        <label>
-            <select name="year">
+                </select>
+             </label>
+            <label for="year">
+                <select id="year" name="year" >
+                <option>Year</option>
                 <option>2017</option>
                 <option>2016</option>
                 <option>2015</option>
@@ -115,12 +115,15 @@
                 <option>1997</option>
                 <option>1996</option>
                 <option>1995</option>
-            </select>
-        </label>
-        <br>
+                </select>
+            </label>
+        </fieldset>
+
         Gender:
         <label>
             <input type="radio" name="gender" value="male">Male
+        </label>
+        <label>
             <input type="radio" name="gender" value="female">Female
         </label>
         <br>
@@ -133,40 +136,39 @@
     <img class="card-img" src="img/cards.png"/>
 </div>
 
-        <footer>
-            <nav id="nav1" class="navList">SUSPENDISSE
-                <ul class="ul2">
-                        <li class="Fcase"><a class="linker"  href="">Praesentium</a></li>
-                        <li class="Fcase"><a class="linker"  href="">Voluptatum</a></li>
-                        <li class="Fcase"><a class="linker"  href="">Dignissimos</a></li>
-                        <li class="Fcase"><a class="linker"  href="">Blanditiis</a></li>
-                    </ul>
-            </nav>
-            <nav id="nav2" class="navList">PORTA
-                <ul class="ul2">
-                        <li class="Fcase"><a class="linker" href="">Mauris </a></li>
-                        <li class="Fcase"><a class="linker"  href="">Suscipit </a></li>
-                        <li class="Fcase"><a class="linker" href="">At ipsum</a></li>
-                        <li class="Fcase"><a class="linker" href="">Vehicula</a></li>
-                    </ul>
-            </nav>
-            <nav id="nav3" class="navList">FEUGIAT
-                <ul class="ul2">
-                        <li class="Fcase"><a class="linker" href="">Pellentesque</a></li>
-                        <li class="Fcase"><a class="linker" href="">Accumsan </a></li>
-                        <li class="Fcase"><a class="linker" href="">Velit in urna</a></li>
-                        <li class="Fcase"><a class="linker" href="">Faucibus </a></li>
-                    </ul>
-            </nav>
-            <nav id="nav4" class="navList">PLACERAT
-                <ul class="ul2">
-                        <li class="Fcase"><a class="linker" href="">Vitae</a></li>
-                        <li class="Fcase"><a class="linker" href="">Convallis</a></li>
-                        <li class="Fcase"><a class="linker" href="">Augue </a></li>
-                        <li class="Fcase"><a class="linker" href="">Aliquam</a></li>
-                    </ul>
-            </nav>
-
-        </footer>
+<footer>
+    <nav class="navList">SUSPENDISSE
+        <ul class="ul2">
+            <li class="Fcase"><a class="linker"  href="additionPage.html">Praesentium</a></li>
+            <li class="Fcase"><a class="linker"  href="additionPage.html">Voluptatum</a></li>
+            <li class="Fcase"><a class="linker"  href="additionPage.html">Dignissimos</a></li>
+            <li class="Fcase"><a class="linker"  href="additionPage.html">Blanditiis</a></li>
+        </ul>
+    </nav>
+    <nav class="navList">PORTA
+        <ul class="ul2">
+            <li class="Fcase"><a class="linker" href="additionPage.html">Mauris </a></li>
+            <li class="Fcase"><a class="linker"  href="additionPage.html">Suscipit </a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">At ipsum</a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">Vehicula</a></li>
+        </ul>
+    </nav>
+    <nav class="navList">FEUGIAT
+        <ul class="ul2">
+            <li class="Fcase"><a class="linker" href="additionPage.html">Pellentesque</a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">Accumsan </a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">Velit in urna</a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">Faucibus </a></li>
+        </ul>
+    </nav>
+    <nav class="navList">PLACERAT
+        <ul class="ul2">
+            <li class="Fcase"><a class="linker" href="additionPage.html">Vitae</a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">Convallis</a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">Augue </a></li>
+            <li class="Fcase"><a class="linker" href="additionPage.html">Aliquam</a></li>
+        </ul>
+    </nav>
+    </footer>
 </body>
 </html>

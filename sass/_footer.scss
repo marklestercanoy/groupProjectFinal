@@ -1,130 +1,52 @@
-@mixin navMain{
-  display: inline-block;
-  font: 28px 'PT Sans', sans-serif;
-  text-align: left;
-  color: $bg-color;
-  left: 0;
-  padding: 30px 5% 30px 5%;
-}
-@mixin navList{
-  text-align: left;
-  font-size: 23px;
-  list-style: none;
-  color: $bg-color;
+body {
+  margin: 0px;
 }
 footer {
   background-color: #006B41;
   margin: 130px auto 0 auto;
   text-align: center;
 }
-.ul2{
-  padding: 0;
+@mixin navMain{
+  display: inline-block;
+  font: 33px sans-serif;
+  text-align: left;
+  color: white;
+  padding: 30px 5% 30px 5%;
 }
-nav{
+@mixin navList{
+  text-align: left;
+  font-size: 25px;
+  list-style: none;
+  color: $bg-color;
+}
 
-    &#nav1 {
-      @include navMain;
-        ul {
-          padding-top: 20px;
-            li {
-                &.Fcase {
-                  @include navList;
-                    a {
-                        &.linker {
-                          color: $bg-color;
-                          text-decoration: none;
-                            &:visited {
-                              color: $bg-color;
-                            }
-                            &:hover {
-                              text-shadow: 4px 4px 20px blue;
-                            }
-                            &:active {
-                              color: $bg-color;
-                            }
-                        }
-                    }
-                }
+.ul2{
+  padding: 0px 0px;
+}
+nav {
+  @include navMain;
+  ul {
+    padding-top: 20px;
+    li {
+      &.Fcase {
+        @include navList;
+        a {
+          &.linker {
+            color: $bg-color;
+            text-decoration: none;
+            &:visited {
+              color: $bg-color;
             }
-        }
-    }
-    &#nav2 {
-      @include navMain;
-      ul {
-        padding-top: 20px;
-        li {
-          &.Fcase {
-            @include navList;
-            a {
-                        &.linker {
-                          color: $bg-color;
-                          text-decoration: none;
-                            &:visited {
-                              color: $bg-color;
-                            }
-                            &:hover {
-                              text-shadow: 4px 4px 20px blue;
-                            }
-                            &:active {
-                              color: $bg-color;
-                            }
-                        }
-                    }
-                }
+            &:hover {
+              color: $footer-hover-color;
+              text-shadow: 4px 4px 20px blue;
             }
-        }
-    }
-
-    &#nav3 {
-      @include navMain;
-        ul {
-          padding-top: 20px;
-            li {
-                &.Fcase {
-                  @include navList;
-                    a {
-                        &.linker {
-                          color: $bg-color;
-                          text-decoration: none;
-                            &:visited {
-                              color: $bg-color;
-                            }
-                            &:hover {
-                              text-shadow: 4px 4px 20px blue;
-                            }
-                            &:active {
-                              color: $bg-color;
-                            }
-                        }
-                    }
-                }
+            &:active {
+              color: $footer-hover-color;
             }
+          }
         }
+      }
     }
-    &#nav4 {
-      @include navMain;
-        ul {
-          padding-top: 20px;
-            li {
-                &.Fcase {
-                  @include navList;
-                    a {
-                        &.linker {
-                          color: $bg-color;
-                          text-decoration: none;
-                            &:visited {
-                              color: $bg-color;
-                            }
-                            &:hover {
-                              text-shadow: 4px 4px 20px blue;
-                            }
-                            &:active {
-                              color: $bg-color;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+  }
 }

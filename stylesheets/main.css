@@ -3,178 +3,73 @@
   border: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 
-/* line 6, ../sass/_images.scss */
+/* line 7, ../sass/_images.scss */
 .card-img {
   position: absolute;
-  z-index: 1;
-  top: 1400px;
-  left: 0;
+  z-index: 0;
+  top: 1446px;
+  left: -40px;
   right: 500px;
   bottom: -55px;
   margin: auto;
 }
 
-/* line 15, ../sass/_footer.scss */
+/* line 1, ../sass/_footer.scss */
+body {
+  margin: 0px;
+}
+
+/* line 4, ../sass/_footer.scss */
 footer {
   background-color: #006B41;
   margin: 130px auto 0 auto;
   text-align: center;
 }
 
-/* line 20, ../sass/_footer.scss */
+/* line 23, ../sass/_footer.scss */
 .ul2 {
-  padding: 0;
+  padding: 0px 0px;
 }
 
-/* line 25, ../sass/_footer.scss */
-nav#nav1 {
+/* line 26, ../sass/_footer.scss */
+nav {
   display: inline-block;
-  font: 28px 'PT Sans', sans-serif;
+  font: 33px sans-serif;
   text-align: left;
-  color: #ffffff;
-  left: 0;
+  color: white;
   padding: 30px 5% 30px 5%;
 }
-/* line 27, ../sass/_footer.scss */
-nav#nav1 ul {
+/* line 28, ../sass/_footer.scss */
+nav ul {
   padding-top: 20px;
 }
-/* line 30, ../sass/_footer.scss */
-nav#nav1 ul li.Fcase {
+/* line 31, ../sass/_footer.scss */
+nav ul li.Fcase {
   text-align: left;
-  font-size: 23px;
+  font-size: 25px;
   list-style: none;
   color: #ffffff;
 }
-/* line 33, ../sass/_footer.scss */
-nav#nav1 ul li.Fcase a.linker {
+/* line 34, ../sass/_footer.scss */
+nav ul li.Fcase a.linker {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 36, ../sass/_footer.scss */
-nav#nav1 ul li.Fcase a.linker:visited {
+/* line 37, ../sass/_footer.scss */
+nav ul li.Fcase a.linker:visited {
   color: #ffffff;
 }
-/* line 39, ../sass/_footer.scss */
-nav#nav1 ul li.Fcase a.linker:hover {
+/* line 40, ../sass/_footer.scss */
+nav ul li.Fcase a.linker:hover {
+  color: lightblue;
   text-shadow: 4px 4px 20px blue;
 }
-/* line 42, ../sass/_footer.scss */
-nav#nav1 ul li.Fcase a.linker:active {
-  color: #ffffff;
-}
-/* line 51, ../sass/_footer.scss */
-nav#nav2 {
-  display: inline-block;
-  font: 28px 'PT Sans', sans-serif;
-  text-align: left;
-  color: #ffffff;
-  left: 0;
-  padding: 30px 5% 30px 5%;
-}
-/* line 53, ../sass/_footer.scss */
-nav#nav2 ul {
-  padding-top: 20px;
-}
-/* line 56, ../sass/_footer.scss */
-nav#nav2 ul li.Fcase {
-  text-align: left;
-  font-size: 23px;
-  list-style: none;
-  color: #ffffff;
-}
-/* line 59, ../sass/_footer.scss */
-nav#nav2 ul li.Fcase a.linker {
-  color: #ffffff;
-  text-decoration: none;
-}
-/* line 62, ../sass/_footer.scss */
-nav#nav2 ul li.Fcase a.linker:visited {
-  color: #ffffff;
-}
-/* line 65, ../sass/_footer.scss */
-nav#nav2 ul li.Fcase a.linker:hover {
-  text-shadow: 4px 4px 20px blue;
-}
-/* line 68, ../sass/_footer.scss */
-nav#nav2 ul li.Fcase a.linker:active {
-  color: #ffffff;
-}
-/* line 78, ../sass/_footer.scss */
-nav#nav3 {
-  display: inline-block;
-  font: 28px 'PT Sans', sans-serif;
-  text-align: left;
-  color: #ffffff;
-  left: 0;
-  padding: 30px 5% 30px 5%;
-}
-/* line 80, ../sass/_footer.scss */
-nav#nav3 ul {
-  padding-top: 20px;
-}
-/* line 83, ../sass/_footer.scss */
-nav#nav3 ul li.Fcase {
-  text-align: left;
-  font-size: 23px;
-  list-style: none;
-  color: #ffffff;
-}
-/* line 86, ../sass/_footer.scss */
-nav#nav3 ul li.Fcase a.linker {
-  color: #ffffff;
-  text-decoration: none;
-}
-/* line 89, ../sass/_footer.scss */
-nav#nav3 ul li.Fcase a.linker:visited {
-  color: #ffffff;
-}
-/* line 92, ../sass/_footer.scss */
-nav#nav3 ul li.Fcase a.linker:hover {
-  text-shadow: 4px 4px 20px blue;
-}
-/* line 95, ../sass/_footer.scss */
-nav#nav3 ul li.Fcase a.linker:active {
-  color: #ffffff;
-}
-/* line 104, ../sass/_footer.scss */
-nav#nav4 {
-  display: inline-block;
-  font: 28px 'PT Sans', sans-serif;
-  text-align: left;
-  color: #ffffff;
-  left: 0;
-  padding: 30px 5% 30px 5%;
-}
-/* line 106, ../sass/_footer.scss */
-nav#nav4 ul {
-  padding-top: 20px;
-}
-/* line 109, ../sass/_footer.scss */
-nav#nav4 ul li.Fcase {
-  text-align: left;
-  font-size: 23px;
-  list-style: none;
-  color: #ffffff;
-}
-/* line 112, ../sass/_footer.scss */
-nav#nav4 ul li.Fcase a.linker {
-  color: #ffffff;
-  text-decoration: none;
-}
-/* line 115, ../sass/_footer.scss */
-nav#nav4 ul li.Fcase a.linker:visited {
-  color: #ffffff;
-}
-/* line 118, ../sass/_footer.scss */
-nav#nav4 ul li.Fcase a.linker:hover {
-  text-shadow: 4px 4px 20px blue;
-}
-/* line 121, ../sass/_footer.scss */
-nav#nav4 ul li.Fcase a.linker:active {
-  color: #ffffff;
+/* line 44, ../sass/_footer.scss */
+nav ul li.Fcase a.linker:active {
+  color: lightblue;
 }
 
 /* line 1, ../sass/_nav.scss */
@@ -184,23 +79,24 @@ nav#navFirst {
   width: 85%;
   text-align: center;
   padding: 0;
+  margin-left: 105px;
 }
-/* line 7, ../sass/_nav.scss */
+/* line 8, ../sass/_nav.scss */
 nav#navFirst ul.clear {
   clear: both;
   overflow: auto;
   margin: 0;
   padding: 0;
 }
-/* line 12, ../sass/_nav.scss */
+/* line 13, ../sass/_nav.scss */
 nav#navFirst ul.clear li {
   display: inline-block;
 }
-/* line 14, ../sass/_nav.scss */
+/* line 15, ../sass/_nav.scss */
 nav#navFirst ul.clear li:hover {
   background: url("../img/hover-img.png") no-repeat center bottom;
 }
-/* line 17, ../sass/_nav.scss */
+/* line 18, ../sass/_nav.scss */
 nav#navFirst ul.clear li a {
   text-decoration: none;
   color: #176c49;
@@ -219,28 +115,29 @@ form {
 input {
   font: 30px 'PT Sans', sans-serif;
   font-size: 20px;
+  width: 35px;
 }
 
-/* line 10, ../sass/_form.scss */
+/* line 11, ../sass/_form.scss */
 fieldset {
   margin: 0;
   padding: 0;
   display: block;
   border: none;
 }
-/* line 15, ../sass/_form.scss */
+/* line 16, ../sass/_form.scss */
 fieldset legend {
   margin: 0;
   padding: 0;
   font-size: 100%;
 }
-/* line 19, ../sass/_form.scss */
+/* line 20, ../sass/_form.scss */
 fieldset legend label {
   position: absolute;
   top: -20em;
   left: -200em;
 }
-/* line 24, ../sass/_form.scss */
+/* line 25, ../sass/_form.scss */
 fieldset legend select {
   margin: 0;
   padding: 0;
@@ -249,7 +146,7 @@ fieldset legend select {
   border-radius: 4px;
 }
 
-/* line 33, ../sass/_form.scss */
+/* line 34, ../sass/_form.scss */
 fieldset.date select:active,
 fieldset.date select:focus,
 fieldset.date select:hover {
@@ -257,7 +154,7 @@ fieldset.date select:hover {
   background-color: gray;
 }
 
-/* line 41, ../sass/_form.scss */
+/* line 42, ../sass/_form.scss */
 div {
   width: 30%;
   height: 50%;
@@ -265,12 +162,12 @@ div {
   vertical-align: baseline;
 }
 
-/* line 48, ../sass/_form.scss */
+/* line 49, ../sass/_form.scss */
 input {
   margin-bottom: 2%;
 }
 
-/* line 52, ../sass/_form.scss */
+/* line 53, ../sass/_form.scss */
 div input.submit {
   border-radius: 5px;
   padding: 10px 15px;
@@ -280,19 +177,19 @@ div input.submit {
   right: 10px;
 }
 
-/* line 61, ../sass/_form.scss */
+/* line 62, ../sass/_form.scss */
 div img {
   float: left;
-  margin: -210px 0px 0px -190px;
+  margin: -210px 0 0 -190px;
 }
 
-/* line 66, ../sass/_form.scss */
+/* line 67, ../sass/_form.scss */
 input.content {
   width: 60%;
   background-color: rgba(58, 128, 65, 0.59);
 }
 
-/* line 71, ../sass/_form.scss */
+/* line 72, ../sass/_form.scss */
 div#form-style-2 {
   max-width: 560px;
   box-shadow: #3a8041 0 0 20px 1px;
@@ -302,15 +199,16 @@ div#form-style-2 {
   border-radius: 5px;
 }
 
-/* line 79, ../sass/_form.scss */
+/* line 81, ../sass/_form.scss */
 div#form-style-2 label span#sp2 {
   width: 300px;
   text-align: right;
   display: inline-block;
   font: 15px "PT Sans", sans-serif;
+  float: right;
 }
 
-/* line 86, ../sass/_form.scss */
+/* line 89, ../sass/_form.scss */
 div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
   width: 40%;
   height: 50px;
@@ -322,60 +220,73 @@ div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
   border-color: transparent;
 }
 
-/* line 96, ../sass/_form.scss */
+/* line 99, ../sass/_form.scss */
 div#form-style-2 form label.text span input[type="checkbox"] {
   width: 110px;
   display: inline-block;
   float: right;
+  position: absolute;
+  z-index: 2;
 }
 
-/* line 102, ../sass/_form.scss */
+/* line 107, ../sass/_form.scss */
 div#form-style-2 input[type="submit"]:hover, div#form-style-2 input[type="button"]:hover {
   color: #ffffff;
   background: #eae118;
 }
 
-/* line 106, ../sass/_form.scss */
+/* line 111, ../sass/_form.scss */
 div form input[type="text"] {
-  width: 59%;
+  width: 74.5%;
 }
 
-/* line 110, ../sass/_form.scss */
+/* line 114, ../sass/_form.scss */
 div#form-style-2 form input[type="email"] {
-  width: 59%;
+  width: 74.5%;
 }
 
-/* line 10, ../sass/main.scss */
+/* line 117, ../sass/_form.scss */
+form span.email {
+  padding-left: 3px;
+}
+
+/* line 120, ../sass/_form.scss */
+form fieldset.date select#month, form fieldset.date select#day, form fieldset.date select#year {
+  padding: 8.3px;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* line 11, ../sass/main.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 14, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 h1 {
   display: inline-block;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 40px;
-  line-height: 30px;
+  line-height: 50px;
   width: 60%;
   margin-left: 300px;
   margin-bottom: 0;
 }
 
-/* line 24, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 p {
   display: inline-block;
   font-family: "PT Sans", sans-serif;
   font-size: 25px;
   text-align: center;
   line-height: 10px;
-  margin-left: 300px;
+  margin-left: 293px;
   margin-bottom: 0;
   width: 60%;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 h2 {
   text-align: center;
   font-family: "PT Sans" , sans-serif;

@@ -1,9 +1,10 @@
 nav#navFirst {
-  border: 2.5px solid $hover-color;
+  border: 2.5px solid #176c49;
   margin: 10px auto;
   width: 85%;
   text-align: center;
   padding: 0;
+  margin-left: 105px;
   ul.clear {
     clear: both;
     overflow: auto;
@@ -16,7 +17,7 @@ nav#navFirst {
       }
       a {
         text-decoration: none;
-        color: $hover-color;
+        color: #176c49;
         font: 30px 'PT Sans', sans-serif;
         display: block;
         padding: 20px 60px;

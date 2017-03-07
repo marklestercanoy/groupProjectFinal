@@ -3,9 +3,10 @@ form {
   font-size: 20px;
 
 }
-  input{
+  input {
     font: 30px 'PT Sans', sans-serif;
     font-size: 20px;
+    width: 35px;
   }
   fieldset{
     margin: 0;
@@ -60,7 +61,7 @@ div input.submit {
 
 div img {
   float:left;
-  margin: -210px 0px 0px -190px;
+  margin: -210px 0 0 -190px;
 }
 
 input.content  {
@@ -76,11 +77,13 @@ div#form-style-2 {
   padding: 200px 85px;
   border-radius: 5px;
 }
+
 div#form-style-2 label span#sp2 {
   width: 300px;
   text-align: right;
   display:inline-block;
   font: 15px "PT Sans", sans-serif;
+  float: right;
 }
 
 div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
@@ -96,7 +99,9 @@ div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
 div#form-style-2 form label.text span input[type="checkbox"] {
   width: 110px;
   display: inline-block;
-  float:right;
+  float: right;
+  position: absolute;
+  z-index:2;
 }
 
 div#form-style-2 input[type="submit"]:hover, div#form-style-2 input[type="button"]:hover{
@@ -104,9 +109,15 @@ div#form-style-2 input[type="submit"]:hover, div#form-style-2 input[type="button
   background: rgb(234, 225, 24);
 }
 div form input[type="text"] {
-  width: 59%;
-
+  width: 74.5%;
 }
 div#form-style-2 form input[type="email"] {
-  width:59%;
+  width:74.5%;
+}
+form span.email {
+  padding-left: 3px;
+}
+form fieldset.date select#month, form fieldset.date select#day, form fieldset.date select#year {
+  padding: 8.3px;
+  font-family: "PT Sans", sans-serif;
 }
