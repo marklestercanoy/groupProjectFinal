@@ -10,7 +10,7 @@
 .card-img {
   position: absolute;
   z-index: 0;
-  top: 1446px;
+  top: 1491px;
   left: -40px;
   right: 500px;
   bottom: -55px;
@@ -75,7 +75,7 @@ nav ul li.Fcase a.linker:active {
 /* line 1, ../sass/_nav.scss */
 nav#navFirst {
   border: 2.5px solid #176c49;
-  margin: 10px auto;
+  margin: 10px 10px 10px 0;
   width: 85%;
   text-align: center;
   padding: 0;
@@ -84,7 +84,6 @@ nav#navFirst {
 /* line 8, ../sass/_nav.scss */
 nav#navFirst ul.clear {
   clear: both;
-  overflow: auto;
   margin: 0;
   padding: 0;
 }
@@ -192,7 +191,7 @@ input.content {
 /* line 72, ../sass/_form.scss */
 div#form-style-2 {
   max-width: 560px;
-  box-shadow: #3a8041 0 0 20px 1px;
+  box-shadow: #3a8041 1px 1px 20px 1px;
   font: 20px "PT Sans", sans-serif;
   margin: auto;
   padding: 200px 85px;
@@ -201,58 +200,61 @@ div#form-style-2 {
 
 /* line 81, ../sass/_form.scss */
 div#form-style-2 label span#sp2 {
-  width: 300px;
+  width: 285px;
   text-align: right;
   display: inline-block;
   font: 15px "PT Sans", sans-serif;
   float: right;
+  line-height: 20px;
+  word-break: break-all;
+  margin-right: 27px;
 }
 
-/* line 89, ../sass/_form.scss */
+/* line 92, ../sass/_form.scss */
 div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
   width: 40%;
   height: 50px;
   float: right;
   color: #ffffff;
-  margin-right: 40px;
+  margin-right: 28px;
   background: #ef2b2f;
   border-radius: 5px;
   border-color: transparent;
 }
 
-/* line 99, ../sass/_form.scss */
+/* line 102, ../sass/_form.scss */
 div#form-style-2 form label.text span input[type="checkbox"] {
   width: 110px;
   display: inline-block;
   float: right;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
-/* line 107, ../sass/_form.scss */
-div#form-style-2 input[type="submit"]:hover, div#form-style-2 input[type="button"]:hover {
+/* line 110, ../sass/_form.scss */
+div#form-style-2 form input[type="submit"]:hover, div#form-style-2 form input[type="button"]:hover {
   color: #ffffff;
   background: #eae118;
 }
 
-/* line 111, ../sass/_form.scss */
+/* line 114, ../sass/_form.scss */
 div form input[type="text"] {
   width: 74.5%;
 }
 
-/* line 114, ../sass/_form.scss */
+/* line 117, ../sass/_form.scss */
 div#form-style-2 form input[type="email"] {
   width: 74.5%;
 }
 
-/* line 117, ../sass/_form.scss */
+/* line 120, ../sass/_form.scss */
 form span.email {
   padding-left: 3px;
 }
 
-/* line 120, ../sass/_form.scss */
+/* line 123, ../sass/_form.scss */
 form fieldset.date select#month, form fieldset.date select#day, form fieldset.date select#year {
-  padding: 8.3px;
+  padding: 10.3px;
   font-family: "PT Sans", sans-serif;
 }
 
@@ -294,4 +296,7 @@ h2 {
   font-size: 35px;
   line-height: 50px;
   margin-left: -400px;
+  margin-top: 10px;
+  text-indent: 9%;
+  padding: 10px 0 0 0;
 }
