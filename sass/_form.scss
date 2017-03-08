@@ -71,7 +71,7 @@ input.content  {
 
 div#form-style-2 {
   max-width: 560px;
-  box-shadow: rgb(58, 128, 65) 0 0 20px 1px;
+  box-shadow: rgb(58, 128, 65) 1px 1px 20px 1px;
   font: 20px "PT Sans", sans-serif;
   margin: auto;
   padding: 200px 85px;
@@ -79,11 +79,14 @@ div#form-style-2 {
 }
 
 div#form-style-2 label span#sp2 {
-  width: 300px;
+  width: 285px;
   text-align: right;
   display:inline-block;
   font: 15px "PT Sans", sans-serif;
   float: right;
+  line-height: 20px;
+  word-break: break-all;
+  margin-right: 27px;
 }
 
 div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
@@ -91,7 +94,7 @@ div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
   height: 50px;
   float: right;
   color: $bg-color;
-  margin-right: 40px;
+  margin-right: 28px;
   background: rgb(239, 43, 47);
   border-radius: 5px;
   border-color: transparent;
@@ -101,10 +104,10 @@ div#form-style-2 form label.text span input[type="checkbox"] {
   display: inline-block;
   float: right;
   position: absolute;
-  z-index:2;
+  z-index: 1;
 }
 
-div#form-style-2 input[type="submit"]:hover, div#form-style-2 input[type="button"]:hover{
+div#form-style-2 form input[type="submit"]:hover, div#form-style-2 form input[type="button"]:hover{
   color: $bg-color;
   background: rgb(234, 225, 24);
 }
@@ -118,6 +121,6 @@ form span.email {
   padding-left: 3px;
 }
 form fieldset.date select#month, form fieldset.date select#day, form fieldset.date select#year {
-  padding: 8.3px;
+  padding: 10.3px;
   font-family: "PT Sans", sans-serif;
 }
