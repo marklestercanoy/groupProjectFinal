@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Group 2 - Project</title>
     <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="jQuery/jquery-1.9.js"></script>
+
 </head>
 <body>
 
@@ -27,7 +29,6 @@
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
 
 <h2>Registration Form</h2>
-
 <div id="form-style-2">
     <div id="formMessage"></div>
     <form>
@@ -119,7 +120,7 @@
                 </select>
             </label>
         </fieldset>
-
+        <br>
         Gender:
         <label>
             <input type="radio" name="gender" value="male">Male
@@ -133,10 +134,16 @@
         </label>
         <br>
         <input id="submitBtn"type="submit" value="Submit"/>
+        <img class="card-img" src="img/cards.png"/>
     </form>
-    <img class="card-img" src="img/cards.png"/>
 </div>
-
+<br><br><br><br>
+<!-- WebWorkers --> q
+<div id="ww">
+    <button onclick="startWorker()">Start Worker</button>
+    <button onclick="stopWorker()">Stop Worker</button>
+    = [<output id="result"></output> ]
+</div>
 <footer>
     <nav class="navList">SUSPENDISSE
         <ul class="ul2">
@@ -171,5 +178,10 @@
         </ul>
     </nav>
     </footer>
+
+<script src="js/demo_workers.js"></script>
+<script src="js/main.js"></script>
+
+
 </body>
 </html>

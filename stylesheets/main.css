@@ -10,7 +10,7 @@
 .card-img {
   position: absolute;
   z-index: 0;
-  top: 1491px;
+  top: 1531px;
   left: -40px;
   right: 500px;
   bottom: -55px;
@@ -299,4 +299,19 @@ h2 {
   margin-top: 10px;
   text-indent: 9%;
   padding: 10px 0 0 0;
+}
+
+/* line 47, ../sass/main.scss */
+footer {
+  margin-top: 10px;
+}
+
+/* line 50, ../sass/main.scss */
+#ww {
+  text-align: center;
+  padding-right: 30px;
+  background-color: grey;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 100px;
 }
