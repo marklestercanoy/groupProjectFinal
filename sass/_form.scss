@@ -89,7 +89,7 @@ div#form-style-2 label span#sp2 {
   margin-right: 27px;
 }
 
-div#form-style-2 input[type="submit"], div#form-style-2 input[type="button"] {
+div#form-style-2 input[type="submitBtn"], div#form-style-2 input[type="button"] {
   width: 40%;
   height: 50px;
   float: right;
@@ -104,7 +104,7 @@ div#form-style-2 form label.text span input[type="checkbox"] {
   display: inline-block;
   float: right;
   position: absolute;
-  z-index: 1;
+  z-index:  1;
 }
 
 div#form-style-2 form input[type="submit"]:hover, div#form-style-2 form input[type="button"]:hover{
